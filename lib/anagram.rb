@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
 
-  def match(array)
+  def self.match(array)
     matches = []
     possible_matches = array.collect { |word| word.split("")}
     possible_matches.each do |i|
