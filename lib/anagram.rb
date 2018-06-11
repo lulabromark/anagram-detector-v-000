@@ -11,7 +11,7 @@ class Anagram
     matches = []
     possible_matches = array.collect { |word| word.split("")}
     possible_matches.each do |i|
-      # binding.pry
+      binding.pry
       if possible_matches[i].sort == @word.sort
         matches << possible_matches[i]
       end
