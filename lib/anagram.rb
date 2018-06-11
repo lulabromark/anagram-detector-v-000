@@ -16,7 +16,6 @@ class Anagram
         matches << match[i]
       end
     end
-    end
     matches
   end
 end
