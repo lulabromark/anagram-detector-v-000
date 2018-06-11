@@ -10,6 +10,7 @@ class Anagram
   def self.match(array)
     matches = []
     possible_matches = array.collect { |word| word.split("")}
+    binding.pry
     possible_matches.each do |i|
       if matches[i].sort == word.sort
         matches << match[i]
